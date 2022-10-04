@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodO | <%= title %></title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="headstyles.css">
+</head>
+<body>
+    <%- include('./partials/nav.ejs') %>
+    <main>
+        <p>SIGN UP FOR FREE</p>
+        <form action="/signUp" method="POST">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" class="firstName" name="firstName" required>
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" class="lastName" name="lastName" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" class="email" name="email" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" class="password" name="password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </main>
+    <%- include('./partials/footer.ejs') %>
+</body>
+</html>

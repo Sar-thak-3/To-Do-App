@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-heading{
+    margin: 12px;
+    font-size: 25px;
+}
+nav{
+    display: flex;
+    height: 10vh;
+}
+.full-screen-nav{
+    float: left;
+}
+.full-screen-nav ul{
+    list-style: none;
+    display: flex;
+}
+.top-nav li{
+    margin: 25px 0 25px 30px;
+}
+.full-screen-nav ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+.full-screen-nav ul li a:hover{
+    font-weight: 700;
+}
+.main-nav{
+    margin-left: 100%;
+    float: right;
+    position: relative;
+}
+.main-nav ul li{
+    display: flex;
+    margin: 12px;
+}
+.main-nav li a{
+    text-decoration: none;
+    color: black;
+}
+.hidden{
+    visibility: hidden;
+}

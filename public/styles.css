@@ -1,0 +1,50 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+h3{
+    text-align: center;
+}
+.att{
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.main-startfree{
+    padding: 10px 20px;
+    font-size: 15px;
+    text-align: center;
+    background-color: red;
+    border-radius: 8px;
+}
+.start-free{
+    padding-left: 45vw;
+}
+.start-free:hover{
+    cursor: pointer;
+}
+img{
+    padding: 15px;
+}
+.top{
+    padding-top: 55px;
+}
+.some{
+    padding: 15px;
+    text-align: center;
+}
+footer p{
+    padding: 3vw;
+}
+footer ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+footer ul li{
+    padding: 0 1vw;
+}
+.first{
+    padding-left: 3vw;
+}
