@@ -14,7 +14,6 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-// const dbURI = "mongodb+srv://shibu:shibu0303@nodetuts.lddgtlx.mongodb.net/TodO-tasks?retryWrites=true&w=majority";
 const dbURI = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@nodetuts.lddgtlx.mongodb.net/${process.env.DB_BASE}?retryWrites=true&w=majority`;
 mongoose.connect(dbURI , {useNewUrlParser: true , useUnifiedTopology: true})
     .then((result) => {app.listen(3000);
